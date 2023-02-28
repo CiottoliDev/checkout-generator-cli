@@ -236,9 +236,6 @@ async function main() {
 			resBusinessCurrent.data.vatCountryID +
 			resBusinessCurrent.data.vatCode;
 
-		// const { columnNames, datas } = csvExtract(config.csvPath);
-		// const mapField = mapBuilder(config.mapPath, config.mapField);
-
 		const rawData = readCsv(config.csvPath);
 		const csv = new CSV(rawData);
 		const { columnNames, datas } = csv.extract();

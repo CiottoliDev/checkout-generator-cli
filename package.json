@@ -42,7 +42,7 @@
 		"typescript": "^4.9.5"
 	},
 	"keywords": [
-		"checkout generator index",
+		"checkout generator cli",
 		"checkout generator",
 		"checkout",
 		"flowpay",
@@ -53,8 +53,8 @@
 		"map.json"
 	],
 	"compilerOptions": {
-		"target": "ES2015",
-		"module": "CommonJS",
+		"target": "es5",
+		"module": "es2022",
 		"strict": true,
 		"esModuleInterop": true,
 		"moduleResolution": "node"
