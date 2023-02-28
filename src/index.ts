@@ -205,11 +205,11 @@ async function main() {
 		const http = new Http();
 		const scope = "transfer:read transfer:write business:read";
 		await http.token(
-			config.baseUrlOauth,
 			config.clientId,
 			config.clientSecret,
 			scope,
 			"client_credentials",
+			config.baseUrlOauth,
 		);
 
 		console.log(chalk.green("Autenticazione eseguita con successo!"));
@@ -304,11 +304,12 @@ async function main() {
 				transfer,
 				http.tokenType!,
 				http.accessToken!,
+				tenantId,
 				config.baseUrlPlatform!, // todo: da risolvere undefined di .env
 				config.baseUrlCheckout!,
 			);
 
-			const checkoutGenerated = await newCheckout.build(i, tenantId);
+			const checkoutGenerated = await newCheckout.build();
 
 			const recordData = {
 				...record,

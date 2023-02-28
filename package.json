@@ -22,7 +22,7 @@
 	"author": "Flowpay s.r.l",
 	"license": "ISC",
 	"dependencies": {
-		"@flowpay/checkout-generator": "file:../checkout-generator",
+		"@flowpay/checkout-generator": "git@github.com:FlowPay/checkout-generator.git",
 		"axios": "^1.3.2",
 		"chalk": "^5.2.0",
 		"dotenv": "^16.0.3",
