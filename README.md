@@ -1,14 +1,14 @@
 # Checkout Generator CLI 🧬
 
-**Checkout Generator CLI** è uno script in node.js che può generare una lista di checkout da un CSV, integrato perfettamente con le api di [Flowpay](https://www.flowpay.it/).
+**Checkout Generator CLI** è uno script in node.js che può generare una lista di checkout da un CSV, integrato perfettamente con le api di [FlowPay](https://developer.flowpay.it/).
 
 ## Requisiti
 
 Requisiti necessari per eseguire lo script node
 
 -   [Node](https://nodejs.org/)
--   **Client_id** (generato [Flowpay](https://www.flowpay.it/))
--   **Client_secret** (generato sempre da [Flowpay](https://www.flowpay.it/))
+-   **Client_id** (generato [FlowPay](https://developer.flowpay.it/))
+-   **Client_secret** (generato sempre da [FlowPay](https://developer.flowpay.it/))
 -   File CSV da [esempio](./example/esempio.csv)
 
 ## Installazione
@@ -26,7 +26,7 @@ cd checkout-generator
 npm install -g
 ```
 
-Se ancora non hai il client di e il client secret, puoi generarli dalla piattaforma di sviluppo dedicata [Flowpay](https://app.flowpay.it/).
+Se ancora non hai il client di e il client secret, puoi generarli dalla piattaforma di sviluppo dedicata [FlowPay](https://developer.flowpay.it/).
 
 Puoi impostare le due chiavi come variabile ambiente oppure come parametro script. Per variabile ambiente segui queste istruzioni.
 
