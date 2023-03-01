@@ -26,7 +26,7 @@ cd checkout-generator
 npm install -g
 ```
 
-Se ancora non hai il client di e il client secret, puoi generarli dalla piattaforma di sviluppo dedicata [FlowPay](https://developer.flowpay.it/).
+Se ancora non hai il client id e il client secret, puoi generarli dalla piattaforma di sviluppo dedicata [FlowPay](https://developer.flowpay.it/).
 
 Puoi impostare le due chiavi come variabile ambiente oppure come parametro script. Per variabile ambiente segui queste istruzioni.
 
